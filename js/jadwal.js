@@ -2,13 +2,15 @@ document.addEventListener("DOMContentLoaded", function () {
         const selectHari = document.getElementById("filter-hari");
         const rows = document.querySelectorAll(".tabel-jadwal tbody tr");
 
-        const daftarHari = ["MINGGU", "SENIN", "SELASA", "RABU", "KAMIS", "JUMAT", "SABTU"];
-        const hariIni = daftarHari[new Date().getDay()];
 
-        if (selectHari.querySelector(`option[value="${hariIni}"]`)) {
-            selectHari.value = hariIni;
-            filterJadwal(hariIni);
-        }
+        // MENGAMBIL SESUAI HARI
+        // const daftarHari = ["MINGGU", "SENIN", "SELASA", "RABU", "KAMIS", "JUMAT", "SABTU"];
+        // const hariIni = daftarHari[new Date().getDay()];
+
+        // if (selectHari.querySelector(`option[value="${hariIni}"]`)) {
+        //     selectHari.value = hariIni;
+        //     filterJadwal(hariIni);
+        // }
 
         selectHari.addEventListener("change", function () {
             filterJadwal(this.value);

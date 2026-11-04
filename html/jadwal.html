@@ -8,6 +8,18 @@
 </head>
 <body>
     <h3>Jadwal Mata Kuliah</h3>
+    <br>
+
+    <div style="margin-bottom: 15px;">
+        <label for="filter-hari"><strong>Pilih Hari:</strong> </label>
+        <select id="filter-hari" style="padding: 5px 10px;">
+            <option value="SEMUA">Semua Hari</option>
+            <option value="SENIN">Senin</option>
+            <option value="SELASA">Selasa</option>
+            <option value="RABU">Rabu</option>
+            <option value="KAMIS">Kamis</option>
+        </select>
+    </div>
     
     <div class="tabel-responsif">
         <table class="tabel-jadwal">
@@ -140,4 +152,5 @@
         </table>
     </div>
 </body>
+<script src="/js/jadwal.js"></script>
 </html>
