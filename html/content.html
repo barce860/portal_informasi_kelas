@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Content</title>
+    <link rel="stylesheet" href="../css/content.css">
+    <link rel="stylesheet" href="/css/galeri.css">
+    <link rel="stylesheet" href="/css/jadwal.css">
+</head>
+
+<body>
+    <h2>Selamat Datang</h2>
+
+    <h3 style="margin-bottom: 12px;">Pengumuman Penting</h3>
+
+    <fieldset class="locked-box" disabled>
+        <div class="announcement-content">
+            <ul>
+                <li><strong>Tugas 1</strong> deadline pengumpulan besok. Harap segera diselesaikan!</li>
+                <li><strong>Tugas 2</strong> deadline pengumpulan besok. Pastikan tidak ada yang terlambat!</li>
+            </ul>
+        </div>
+    </fieldset>
+
+    <h3>Jadwal Mata Kuliah</h3>
+    <div class="aksi-jadwal">
+        <a href="jadwal.html">Lihat Selengkapnya</a>
+    </div>
+
+    <div style="margin-bottom: 15px;">
+        <label for="filter-hari"><strong>Pilih Hari:</strong> </label>
+        <select id="filter-hari" style="padding: 5px 10px;">
+            <option value="SEMUA">Semua Hari</option>
+            <option value="SENIN">Senin</option>
+            <option value="SELASA">Selasa</option>
+            <option value="RABU">Rabu</option>
+            <option value="KAMIS">Kamis</option>
+        </select>
+    </div>
+
+
+    <div class="tabel-responsif">
+        <table class="tabel-jadwal">
+            <thead>
+                <tr>
+                    <th>Kode</th>
+                    <th>Mata Kuliah</th>
+                    <th>Kelas</th>
+                    <th>Hari</th>
+                    <th>Jam</th>
+                    <th>Ruang</th>
+                    <th>Dosen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>K4404-T</td>
+                    <td>PEMROGRAMAN BERORIENTASI OBJEK</td>
+                    <td>3TPBO-A</td>
+                    <td>SENIN</td>
+                    <td>07.30-09.10</td>
+                    <td>B213</td>
+                    <td>Sri Wahyuni S.Kom.,MT</td>
+                </tr>
+                <tr>
+                    <td>K4404-T</td>
+                    <td>PEMROGRAMAN BERORIENTASI OBJEK</td>
+                    <td>3TPBO-1</td>
+                    <td>RABU</td>
+                    <td>07.30-09.10</td>
+                    <td>Lab301</td>
+                    <td>Sri Wahyuni S.Kom.,MT</td>
+                </tr>
+                <tr>
+                    <td>K3233-T</td>
+                    <td>DATA MINING</td>
+                    <td>3TDMG-A</td>
+                    <td>SENIN</td>
+                    <td>09.20-11.00</td>
+                    <td>A105</td>
+                    <td>Sriwahyuningsih Piu S.SI.,MT</td>
+                </tr>
+                <tr>
+                    <td>K3233-T</td>
+                    <td>DATA MINING</td>
+                    <td>3TDMG-1</td>
+                    <td>RABU</td>
+                    <td>09.20-11.00</td>
+                    <td>A105</td>
+                    <td>Sriwahyuningsih Piu S.SI.,MT</td>
+                </tr>
+                <tr>
+                    <td>J3223-T</td>
+                    <td>JARINGAN KOMPUTER</td>
+                    <td>3TTJK-A</td>
+                    <td>SENIN</td>
+                    <td>11.10-12.50</td>
+                    <td>B110</td>
+                    <td>Asmah Akhriana ST., MT.</td>
+                </tr>
+                <tr>
+                    <td>J3223-T</td>
+                    <td>JARINGAN KOMPUTER</td>
+                    <td>3TTJK-1</td>
+                    <td>RABU</td>
+                    <td>11.10-12.50</td>
+                    <td>Lab312</td>
+                    <td>Asmah Akhriana ST., MT.</td>
+                </tr>
+                <tr>
+                    <td>R4012-T</td>
+                    <td>REKAYASA PERANGKAT LUNAK</td>
+                    <td>3TRPL-A</td>
+                    <td>SENIN</td>
+                    <td>13.40-15.20</td>
+                    <td>B102</td>
+                    <td>Sitti Aisa S.Kom., MT.</td>
+                </tr>
+                <tr>
+                    <td>K3293-T</td>
+                    <td>SISTEM MIKROKONTROLER</td>
+                    <td>3TSMK-A</td>
+                    <td>SELASA</td>
+                    <td>07.30-09.10</td>
+                    <td>B113</td>
+                    <td>Dr. Ahmad ST., MT</td>
+                </tr>
+                <tr>
+                    <td>K3293-T</td>
+                    <td>SISTEM MIKROKONTROLER</td>
+                    <td>3TSMK-1</td>
+                    <td>KAMIS</td>
+                    <td>07.30-09.10</td>
+                    <td>Lab312</td>
+                    <td>Dr. Ahmad ST., MT</td>
+                </tr>
+                <tr>
+                    <td>K3523-T</td>
+                    <td>PEMROGRAMAN WEB NATIVE</td>
+                    <td>3TPWN-A</td>
+                    <td>SELASA</td>
+                    <td>09.20-11.00</td>
+                    <td>B103</td>
+                    <td>Annah S.Kom., MT.</td>
+                </tr>
+                <tr>
+                    <td>K3523-T</td>
+                    <td>PEMROGRAMAN WEB NATIVE</td>
+                    <td>3TPWN-1</td>
+                    <td>KAMIS</td>
+                    <td>09.20-11.00</td>
+                    <td>Lab304</td>
+                    <td>Annah S.Kom., MT.</td>
+                </tr>
+                <tr>
+                    <td>K4092-T</td>
+                    <td>SISTEM OPERASI KOMPUTER</td>
+                    <td>3TSOK-A</td>
+                    <td>KAMIS</td>
+                    <td>11.10-12.50</td>
+                    <td>B106</td>
+                    <td>Faizal S.Kom.,M.Si.</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="7" style="text-indent: 40px; font-weight: bold;">Total SKS : 20</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <h3>Galeri Momen Kelas</h3>
+    <div class="aksi-jadwal">
+        <a href="galeri.html">Lihat Selengkapnya</a>
+    </div>
+    <p>Kumpulan kenangan dan momen seru bersama teman-teman sekelas.</p>
+
+    <div class="grid_album">
+        <div class="foto_card">
+            <a href="../image/foto1.jpeg" target="_blank">
+                <img src="../image/foto1.jpeg" alt="Momen 1">
+            </a>
+        </div>
+
+        <div class="foto_card">
+            <a href="../image/foto2.jpeg" target="_blank">
+                <img src="../image/foto2.jpeg" alt="Momen 2">
+            </a>
+        </div>
+
+        <div class="foto_card">
+            <a href="../image/foto3.jpeg" target="_blank">
+                <img src="../image/foto3.jpeg" alt="Momen 3">
+            </a>
+        </div>
+
+        <div class="foto_card">
+            <a href="../image/foto4.jpg" target="_blank">
+                <img src="../image/foto4.jpg" alt="Momen 4">
+            </a>
+        </div>
+    </div>
+
+</body>
+
+<script src="/js/content.js"></script>
+
+</html>
