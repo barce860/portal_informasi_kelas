@@ -1,3 +1,5 @@
+@import url("global.css");
+
 .grid_album {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -10,7 +12,7 @@
     height: 180px;
     border-radius: 8px;
     overflow: hidden;
-    border: 2px solid #cbd5e1;
+    border: 2px solid var(--bg);
     background-color: #f1f5f9;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
